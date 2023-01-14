@@ -5,3 +5,4 @@ Simple single page for spediton company
 Design is avaible in https://symu.co/ggyxam.sl#
 
 ## Project url
+https://antonisea.github.io/trans-euro/
