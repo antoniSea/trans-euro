@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+    height: 300%;
+}
+
+.header {
+    position: fixed;
+    height: 90px;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 1;
+}
+
+.logo {
+    width: 48%;
+    float: left;
+}
+
+.img_logo {
+    margin:16 auto;
+    display: block;
+}
+
+.contact {
+    width: 14%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.contact0 {
+    width: 11%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.img_contact {
+    margin-top: 6px;
+    float: left;
+    margin-right: 12px; 
+}
+
+.header2 {
+    position: fixed;
+    height: 60px;
+    top: 90px;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    z-index: 1;
+}
+
+.htable {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.hbreak {
+    width: 48%;
+    border: 1px lightgray solid;
+    padding-top: 18px;
+    padding-bottom: 23px;
+}
+
+.hbutton1 {
+    width: 14%;
+    border: 1px lightgray solid;
+    padding-top: 18px;
+    padding-bottom: 23px;
+}
+
+.hbutton1:hover, .hbutton2:hover {
+    color: #fc1f2e;
+    border-top: 2px solid #fc1f2e;
+}
+
+.hbutton2 {
+    width: 6%;
+    border: 1px lightgray solid;
+    padding-top: 18px;
+    padding-bottom: 23px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.baner {
+    margin-top: 80px;
+    position: relative;
+    display: block;
+}
+
+h1 {
+    width: 45%;
+    position: absolute;
+    margin-left: 13%;
+    font-size: 120;
+    font: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    left: 0;
+    top: 13%;
+    line-height: 1;
+}
+
+h2 {
+    width: 30%;
+    position: absolute;
+    margin-left: 13%;
+    font-size: 60;
+    font: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    left: 0;
+    top: 45%;
+}
+
+h3 {
+    position: absolute;
+    background-color: #fc1f2e;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 20px 50px 20px;
+    text-align: center;
+    margin-left: 13%;
+    left: 0;
+    top: 59%;
+}
+
+.awhite {
+    color: white;
+}
+
+.main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-table;
+}
+
+.mleft1 {
+    float: left;
+    width: 46%;
+    margin: 2%;
+    display: block
+}
+
+.mright1 {
+    float: right;
+    width: 46%;
+    margin: 2%;
+    display: block
+}
+
+.mleft2 {
+    float: left;
+    width: 46%;
+    margin: 2%;
+    display: block
+}
+
+.mright2 {
+    float: right;
+    width: 46%;
+    margin: 2%;
+    display: block
+}
+
+.mleft3 {
+    float: left;
+    width: 46%;
+    margin: 2%;
+    display: block
+}
+
+.mright3 {
+    float: right;
+    width: 46%;
+    margin: 2%;
+    display: block
+}
+
+.mainimg {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+h4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #fc1f2e;
+    font-size: 31;
+    margin: 0;
+}
+
+h5 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 50;
+    margin: 0;
+}
+
+h6 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    color: gray;
+    font-size: 16;
+    margin: 0;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 17;
+    margin-top: 5%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.mtitle {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fc1f2e;
+    font-size: 21;
+}
+
+.black {
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    margin-top: 75px;
+    display: block;
+    margin-bottom: 90px;
+}
+
+.bleft {
+    float: left;
+    width: 33%;
+    margin-top: 5%;
+    margin-left: 18%
+}
+
+.bright {
+    float: right;
+    width: 30%;    
+    margin-top: 6%;
+    margin-right: 10%;
+}
+
+.bimg {
+    width: 70%;
+}
+
+.btitle {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 55;
+}
+
+.btext {
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18;
+}
+
+.pblack {
+    margin-top: 7%;
+    color: white;
+    padding: 0;
+}
