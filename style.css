@@ -13,7 +13,7 @@ body {
 
 .header {
     position: fixed;
-    height: ;
+    height: 90px;
     top: 0;
     width: 100%;
     background-color: white;
@@ -60,6 +60,12 @@ body {
 
 .ctextb {
     font-size: 0.9vw;
+}
+
+.call {
+    color: black;
+    text-decoration: none;
+    border: #fc1f2e solid px;
 }
 
 .header2 {
@@ -588,34 +594,34 @@ input[type=checkbox] {
     }
     
     .contact {
-        width: 23%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        float: left;
-    }
-    
-    .contact0 {
         width: 19%;
         margin-top: 5px;
         margin-bottom: 5px;
         float: left;
     }
     
+    .contact0 {
+        width: 15%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+    }
+    
     .img_contact {
-        margin-top: 14px;
+        margin-top: 12px;
         float: left;
         margin-right: 5px;
         margin-bottom: 20px;
-        height: 2vw; 
+        height: 1.8vw; 
     }
 
     .ctext {
-        font-size: 1.6vw;
+        font-size: 1.3vw;
         margin-top: 10px;
     }
 
     .ctextb {
-        font-size: 1.6vw;
+        font-size: 1.3vw;
     }
     
     .header2 {
@@ -647,7 +653,7 @@ input[type=checkbox] {
         border-bottom: 1px white solid;
         padding-top: 5px;
         padding-bottom: 6px;
-        font-size: 0.7hw;
+        font-size: 0.5hw;
     }
     
     .hbutton1:hover, .hbutton2:hover {
@@ -661,7 +667,7 @@ input[type=checkbox] {
         border-bottom: 1px white solid;
         padding-top: 5px;
         padding-bottom: 6px;
-        font-size: 0.7hw;
+        font-size: 0.5hw;
     }
     
     a {
@@ -670,7 +676,7 @@ input[type=checkbox] {
     }
     
     .baner {
-        margin-top: 80px;
+        margin-top: 55px;
         position: relative;
         display: block;
     }
@@ -752,7 +758,7 @@ input[type=checkbox] {
         width: 90%;
         margin: 5%;
         display: block;
-        height: 100vw;
+        height: 130vw;
     }
     
     .mleft3 {
@@ -825,7 +831,7 @@ input[type=checkbox] {
     
     .black {
         background-color: black;
-        height: 40vw;
+        height: 50vw;
         width: 100%;
         margin-top: 30px;
         display: block;
@@ -1013,10 +1019,10 @@ input[type=checkbox] {
     
     .btable {
         position: absolute;
-        top: 15vw;
+        top: 14vw;
         left: 5vw;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.6vw;
+        font-size: 1.2vw;
         font-weight: lighter;
         width: 75%;
     }
@@ -1026,7 +1032,7 @@ input[type=checkbox] {
     }
     
     .btd {
-        padding-bottom: 0.8vw;
+        padding-bottom: 0.5vw;
     }
     
     .footer {
@@ -1041,7 +1047,7 @@ input[type=checkbox] {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        height: 20vw;
+        height: 35vw;
         display: inline-block;
     }
     
