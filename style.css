@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,7 +8,7 @@ body {
     background-color: white;
     padding: 0%;
     margin: 0%;
-    height: 300%;
+    width: 100%;
 }
 
 .header {
@@ -28,17 +29,18 @@ body {
 .img_logo {
     margin:16 auto;
     display: block;
+    width: 13vw;
 }
 
 .contact {
-    width: 14%;
+    width: 18%;
     margin-top: 25px;
     margin-bottom: 25px;
     float: left;
 }
 
 .contact0 {
-    width: 11%;
+    width: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
     float: left;
@@ -48,11 +50,21 @@ body {
     margin-top: 6px;
     float: left;
     margin-right: 12px; 
+    margin-bottom: 20px;
+    width: 1.5vw;
+}
+
+.ctext {
+    font-size: 0.9vw;
+}
+
+.ctextb {
+    font-size: 0.9vw;
 }
 
 .header2 {
     position: fixed;
-    height: 60px;
+    height: 50x;
     top: 90px;
     width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -61,7 +73,7 @@ body {
 }
 
 .htable {
-    font-size: 14px;
+    font-size: 0.7vw;
     width: 100%;
     border-collapse: collapse;
     background-color: white;
@@ -108,23 +120,26 @@ h1 {
     width: 45%;
     position: absolute;
     margin-left: 13%;
-    font-size: 120;
+    margin-bottom: 20px;
+    font-size: 6vw;
     font: bold;
     font-family: 'Roboto Condensed', sans-serif;
     left: 0;
     top: 13%;
     line-height: 1;
+    display: block;
 }
 
 h2 {
     width: 30%;
     position: absolute;
     margin-left: 13%;
-    font-size: 60;
+    font-size: 3.3vw;
     font: bold;
     font-family: 'Roboto Condensed', sans-serif;
     left: 0;
     top: 45%;
+    display: block;
 }
 
 h3 {
@@ -132,15 +147,20 @@ h3 {
     background-color: #fc1f2e;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 20px 50px 20px;
+    padding: 1% 2.2% 1%;
     text-align: center;
     margin-left: 13%;
     left: 0;
     top: 59%;
+    display: block;
 }
 
 .awhite {
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
+    font-weight: 400;
+    font-size: 1vw;
+    display: block;
 }
 
 .main {
@@ -154,42 +174,44 @@ h3 {
     float: left;
     width: 46%;
     margin: 2%;
-    display: block
+    display: block;
+    margin-bottom: 5%;
 }
 
 .mright1 {
     float: right;
     width: 46%;
     margin: 2%;
-    display: block
+    display: block;
 }
 
 .mleft2 {
     float: left;
     width: 46%;
     margin: 2%;
-    display: block
+    display: block;
 }
 
 .mright2 {
     float: right;
     width: 46%;
     margin: 2%;
-    display: block
+    display: block;
+    margin-bottom: 5%;
 }
 
 .mleft3 {
     float: left;
     width: 46%;
     margin: 2%;
-    display: block
+    display: block;
 }
 
 .mright3 {
     float: right;
     width: 46%;
     margin: 2%;
-    display: block
+    display: block;
 }
 
 .mainimg {
@@ -203,7 +225,7 @@ h4 {
     padding-right: 5%;
     font-family: 'Roboto', sans-serif;
     color: #fc1f2e;
-    font-size: 31;
+    font-size: 1.8vw;
     margin: 0;
 }
 
@@ -212,7 +234,7 @@ h5 {
     padding-right: 5%;
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 50;
+    font-size: 2.6vw;
     margin: 0;
 }
 
@@ -222,7 +244,7 @@ h6 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 200;
     color: gray;
-    font-size: 16;
+    font-size: 0.9vw;
     margin: 0;
 }
 
@@ -231,7 +253,7 @@ p {
     padding-right: 5%;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 17;
+    font-size: 0.9vw;
     margin-top: 5%;
     line-height: 1.5;
     text-align: justify;
@@ -242,12 +264,12 @@ p {
     padding-right: 5%;
     font-family: Arial, Helvetica, sans-serif;
     color: #fc1f2e;
-    font-size: 21;
+    font-size: 1.29vw;
 }
 
 .black {
     background-color: black;
-    height: 600px;
+    height: 28vw;
     width: 100%;
     margin-top: 75px;
     display: block;
@@ -257,14 +279,14 @@ p {
 .bleft {
     float: left;
     width: 33%;
-    margin-top: 5%;
-    margin-left: 18%
+    margin-top: 5vw;
+    margin-left: 18%;
 }
 
 .bright {
     float: right;
     width: 30%;    
-    margin-top: 6%;
+    margin-top: 5vw;
     margin-right: 10%;
 }
 
@@ -276,17 +298,801 @@ p {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-size: 55;
+    font-size: 2.8vw;
 }
 
 .btext {
     color: gray;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18;
+    font-size: 1vw;
 }
 
 .pblack {
     margin-top: 7%;
     color: white;
     padding: 0;
+    font-size: 0.9vw;
+}
+
+.formulage {
+    position: static;
+    width: 71%;
+    margin-left: 14.5%;
+    margin-right: 14.5%;
+}
+
+.for1 {
+    margin-bottom: 5%;
+}
+
+.tfor1 {
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col2 {
+    width: 66%;
+}
+
+.col3 {
+    width: 100%;
+}
+
+.col4 {
+    width: 22%;
+}
+
+.col5 {
+    width: 50%;
+}
+
+.pcol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+    margin-bottom: 11px;
+    float: left;
+}
+
+.tcol {
+    padding: 1.5vh 0 1.5vh 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    font-weight: 200;
+    width: 100%;
+    opacity: 0.6;
+    margin-bottom: 3.3vh;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+.check {
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 3.3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 15%;
+    height: 1.2vw;
+    float: left;
+    margin: 0;
+}
+
+input[type=checkbox] {
+    width: 2%;
+    border: 0px;
+    height: 1.2vw;
+    float: left;
+    margin:0 5px 0 0;
+}
+
+.button {
+    position: static;
+    margin-left: 3.5%;
+    margin-bottom: 5%;
+    background-color: #fc1f2e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8vw;
+    color: white;
+    padding: 0.8vw 2.2vw;
+    text-align: center;
+    display: table;
+}
+
+.map {
+    width: 75%;
+    margin: 0 12.5%;
+    display: inline-block;
+}
+
+.maptitle {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.4vw;
+    font-weight: bold;
+    color: black;
+}
+
+.dmap {
+    width: 35%;
+    float: left;
+}
+
+.bmap {
+    width: 65%;
+    float: right;
+    position: relative;
+}
+
+.board {
+    width: 100%;
+    margin-top: 10%;
+    position: relative
+}
+
+.bcity {
+    margin-top: 10%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vw;
+    color: white;
+    top: 0.7vw;
+    margin-left: 16vw;
+}
+
+.btable {
+    position: absolute;
+    top: 8vw;
+    left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.65vw;
+    font-weight: lighter;
+    width: 75%;
+}
+
+.btr {
+    width: 33%;
+}
+
+.btd {
+    padding-bottom: 0.8vw;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 3vw;
+    margin-top: 5vw;
+    display: inline-block;
+}
+
+.foot1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 12vw;
+    display: inline-block;
+}
+
+.footlogo {
+    width: 15%;
+    margin: 0 10%;
+    float: left;
+}
+
+.tfoot {
+    width: 55%;
+    margin: 0 5%;
+    color: white;
+    float: right;
+    padding-bottom: 3vw;
+}
+
+.thfoot {
+    width: 50%;
+}
+
+.ftitle {
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+    float: left;
+    margin-bottom: 2vw;
+}
+
+.ftitle:after {
+    content:'';
+    height: 2px;
+    width: 3vw;
+    background:#fc1f2e;
+    position: absolute;
+    left: 0;
+    bottom:-5px;  
+}
+
+.imgfoot {
+    float: left;
+    width: 1vw;
+    margin: 0 0.4vw 0 0;
+    filter: brightness(100);
+}
+
+.fdesc {
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9vw;
+    float: left;
+}
+
+.footer2 {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75vw;
+    padding: 1.2vw 0;
+    color: white;
+    border-top: 1px gray solid;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+@media only screen and (max-width: 850px) {
+    .header {
+        position: fixed;
+        height: 70px;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        z-index: 1;
+    }
+    
+    .logo {
+        width: 25%;
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .img_logo {
+        margin:25px auto;
+        display: block;
+        width: 85%;
+    }
+    
+    .contact {
+        width: 23%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        float: left;
+    }
+    
+    .contact0 {
+        width: 19%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        float: left;
+    }
+    
+    .img_contact {
+        margin-top: 14px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        width: 20px; 
+    }
+
+    .ctext {
+        font-size: 1.6vw;
+        margin-top: 10px;
+    }
+
+    .ctextb {
+        font-size: 1.6vw;
+    }
+    
+    .header2 {
+        position: fixed;
+        height: 30px;
+        top: 70px;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: white;
+        z-index: 1;
+    }
+    
+    .htable {
+        font-size: 10px;
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+    }
+    
+    .hbreak {
+        width: 0%;
+        border: 1px lightgray solid;
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+    
+    .hbutton1 {
+        width: 10%;
+        border: 1px lightgray solid;
+        padding-top: 12px;
+        padding-bottom: 15px;
+        font-size: 0.7hw;
+    }
+    
+    .hbutton1:hover, .hbutton2:hover {
+        color: #fc1f2e;
+        border-top: 2px solid #fc1f2e;
+    }
+    
+    .hbutton2 {
+        width: 4%;
+        border: 1px lightgray solid;
+        padding-top: 12px;
+        padding-bottom: 15px;
+        font-size: 0.7hw;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .baner {
+        margin-top: 80px;
+        position: relative;
+        display: block;
+    }
+    
+    h1 {
+        width: 45%;
+        position: absolute;
+        margin-left: 13%;
+        font-size: 6vw;
+        font: bold;
+        font-family: 'Roboto Condensed', sans-serif;
+        left: 0;
+        top: 13%;
+        line-height: 1;
+    }
+    
+    h2 {
+        width: 30%;
+        position: absolute;
+        margin-left: 13%;
+        font-size: 3.3vw;
+        font: bold;
+        font-family: 'Roboto Condensed', sans-serif;
+        left: 0;
+        top: 45%;
+    }
+    
+    h3 {
+        position: absolute;
+        background-color: #fc1f2e;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        padding: 2% 4.4% 2%;
+        text-align: center;
+        margin-left: 13%;
+        left: 0;
+        top: 59%;
+    }
+    
+    .awhite {
+        color: white;
+        font-weight: 300;
+        font-size: 2vw;
+    }
+    
+    .main {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        display: inline-table;
+    }
+    
+    .mleft1 {
+        float: left;
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    
+    .mright1 {
+        float: right;
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    
+    .mleft2 {
+        float: left;
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    
+    .mright2 {
+        float: right;
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    
+    .mleft3 {
+        float: left;
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    
+    .mright3 {
+        float: right;
+        width: 90%;
+        margin: 5%;
+        display: block;
+    }
+    
+    .mainimg {
+        padding: 0 10%;
+        width: 80%;
+    }
+    
+    h4 {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: 'Roboto', sans-serif;
+        color: #fc1f2e;
+        font-size: 3vw;
+        margin: 0;
+    }
+    
+    h5 {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 3.8vw;
+        margin: 0;
+    }
+    
+    h6 {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 200;
+        color: gray;
+        font-size: 2.2vw;
+        margin: 0;
+    }
+    
+    p {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 2.6vw;
+        margin-top: 5%;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .mtitle {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fc1f2e;
+        font-size: 2.5vw;
+    }
+    
+    .black {
+        background-color: black;
+        height: 40vw;
+        width: 100%;
+        margin-top: 30px;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .bleft {
+        float: left;
+        width: 80%;
+        margin-top: 3vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .bright {
+        float: right;
+        width: 0%;    
+    }
+    
+    .bimg {
+        width: 70%;
+    }
+    
+    .btitle {
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 3.5vw;
+    }
+    
+    .btext {
+        color: gray;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.6vw;
+    }
+    
+    .pblack {
+        margin-top: 7%;
+        color: white;
+        padding: 0;
+        font-size: 1.8vw;
+    }
+
+    .formulage {
+        position: static;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .for1 {
+        margin-bottom: 3%;
+    }
+    
+    .tfor1 {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+    
+    tr {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .col1 {
+        width: 33%;
+    }
+    
+    .col2 {
+        width: 66%;
+    }
+    
+    .col3 {
+        width: 100%;
+    }
+    
+    .col4 {
+        width: 22%;
+    }
+    
+    .col5 {
+        width: 50%;
+    }
+    
+    .pcol {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5vw;
+        font-weight: 300;
+        margin-bottom: 6px;
+        float: left;
+    }
+    
+    .tcol {
+        padding: 1.3vh 0 1.3vh 0.7vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.2vw;
+        font-weight: 200;
+        width: 100%;
+        opacity: 0.6;
+        margin-bottom: 2.5vh;
+    }
+    
+    label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5vw;
+    }
+    
+    .check {
+        float: left;
+        margin-right: 10%;
+        margin-bottom: 3.1vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 2.5vw;
+    }
+    
+    input[type=radio] {
+        border: 0px;
+        width: 25%;
+        height: 3vw;
+        float: left;
+        margin: 0;
+    }
+    
+    input[type=checkbox] {
+        width: 5%;
+        border: 0px;
+        height: 3vw;
+        float: left;
+        margin:0 5px 0 0;
+    }
+    
+    .button {
+        position: static;
+        margin-left: 3%;
+        margin-bottom: 4%;
+        background-color: #fc1f2e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 3vw;
+        color: white;
+        padding: 1.6vw 2.8vw;
+        text-align: center;
+        display: table;
+    }
+
+    .map {
+        width: 90%;
+        margin: 0 5%;
+        display: inline-block;
+    }
+    
+    .maptitle {
+        text-align: center;
+        padding: 2vw 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 5vw;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .dmap {
+        width: 100%;
+        float: left;
+    }
+    
+    .bmap {
+        width: 100%;
+        float: right;
+        position: relative;
+    }
+    
+    .board {
+        width: 100%;
+        margin-top: 10%;
+        position: relative
+    }
+    
+    .bcity {
+        margin-top: 10%;
+        position: absolute;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 2.7vw;
+        color: white;
+        top: 0.7vw;
+        margin-left: 30vw;
+    }
+    
+    .btable {
+        position: absolute;
+        top: 15vw;
+        left: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6vw;
+        font-weight: lighter;
+        width: 75%;
+    }
+    
+    .btr {
+        width: 33%;
+    }
+    
+    .btd {
+        padding-bottom: 0.8vw;
+    }
+    
+    .footer {
+        background-color: black;
+        width: 100%;
+        padding-top: 3vw;
+        margin-top: 5vw;
+        display: inline-block;
+    }
+    
+    .foot1 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 20vw;
+        display: inline-block;
+    }
+    
+    .footlogo {
+        width: 0;
+        margin: 0;
+        float: left;
+    }
+    
+    .tfoot {
+        width: 90%;
+        margin: 0 10%;
+        color: white;
+        padding-bottom: 3vw;
+    }
+    
+    .thfoot {
+        width: 50%;
+    }
+    
+    .ftitle {
+        position: relative;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 3vw;
+        float: left;
+        margin-bottom: 2vw;
+    }
+    
+    .ftitle:after {
+        content:'';
+        height: 2px;
+        width: 3vw;
+        background:#fc1f2e;
+        position: absolute;
+        left: 0;
+        bottom:-5px;  
+    }
+    
+    .imgfoot {
+        float: left;
+        width: 2vw;
+        margin: 0 0.4vw 0 0;
+        filter: brightness(100);
+    }
+    
+    .fdesc {
+        padding: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8vw;
+        float: left;
+    }
+    
+    .footer2 {
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6vw;
+        padding: 1.8vw 0;
+        color: white;
+        border-top: 1px gray solid;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
 }
