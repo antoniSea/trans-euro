@@ -103,44 +103,38 @@
                 <tbody>
                     <tr>
                         <th class="col1">
-                            <div class="pcol">Nazwa firmy*</div>
-                        </th>
-                        <th class="col2">
-                            <div class="pcol">Adres firmy*</div>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="col1">
-                            <input type="text" id="fname" class="tcol" placeholder="Nazwa twojej firmy">
-                        </th>
-                        <th class="col2">
-                            <input type="text" id="adres" class="tcol" placeholder="ulica, numer budynku, kod pocztowy, miasto, kraj">
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="tfor1">
-                <tbody>
-                    <tr>
-                        <th class="col1">
                             <div class="pcol">Imię i nazwisko*</div>
                         </th>
                         <th class="col1">
                             <div class="pcol">Email*</div>
                         </th>
+                    </tr>
+                    <tr>
+                        <th class="col1">
+                            <input type="text" id="name" class="tcol1" placeholder="Twoje imię i nazwisko">
+                        </th>
+                        <th class="col1">
+                            <input type="text" id="email" class="tcol1" placeholder="email@firma.pl">
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="tfor1">
+                <tbody>
+                    <tr>
                         <th class="col1">
                             <div class="pcol">Numer telefonu*</div>
                         </th>
+                        <th class="col1">
+                            <div class="pcol">Miasto*</div>
+                        </th>               
                     </tr>
                     <tr>
                         <th class="col1">
-                            <input type="text" id="name" class="tcol" placeholder="Twoje imię i nazwisko">
+                            <input type="text" id="phone" class="tcol1" placeholder="123456789">
                         </th>
                         <th class="col1">
-                            <input type="text" id="email" class="tcol" placeholder="email@firma.pl">
-                        </th>
-                        <th class="col1">
-                            <input type="text" id="phone" class="tcol" placeholder="123456789">
+                            <input type="text" id="city" class="tcol1" placeholder="Nazwa miasta">
                         </th>
                     </tr>
                 </tbody>
@@ -148,146 +142,13 @@
             <table class="tfor1">
                 <tbody>
                     <tr>
-                        <th class="col3">
-                            <div class="pcol">Opis ładunku*</div>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="col3">
-                            <input type="text" id="description" class="tcol" placeholder="Uwzglęndnij: typ załadunku, sposób zapakowania, wagę, wymiary, itd.">
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="tfor1">
-                <tbody>
-                    <tr>              
                         <th class="col1">
-                            <div class="pcol">ADR (towat niebezpieczny)?*</div>
-                        </th>
-                        <th class="col1">
-                            <div class="pcol">Wymagana usługa odprawy celnej?*</div>
-                        </th>
-                        <th class="col1">
-                            <div class="pcol">Kontrolowana temperatura?*</div>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="col1">
-                            <input type="radio" id="ADR" name="ADR">
-                            <label id="ADR" class="check">Nie</label>
-                            <input type="radio" id="ADR" name="ADR">
-                            <label id="ADR" class="check">Tak</label>
-                        </th>
-                        <th class="col1">
-                            <input type="radio" id="check" name="check">
-                            <label id="check" class="check">Nie</label>
-                            <input type="radio" id="check" name="check">
-                            <label id="check" class="check">Tak</label>
-                        </th>
-                        <th class="col1">
-                            <input type="radio" id="temp" name="temp">
-                            <label id="temp" class="check">Nie</label>
-                            <input type="radio" id="temp" name="temp">
-                            <label id="temp" class="check">Tak</label>
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="tfor1">
-                <tbody>
-                    <tr>              
-                        <th class="col4">
-                            <div class="pcol">Data załadunku*</div>
-                        </th>
-                        <th class="col4">
-                            <div class="pcol">Godzina załadunku*</div>
-                        </th>
-                        <th class="col4">
-                            <div class="pcol">Kod pocztowy załadunku*</div>
-                        </th>
-                        <th class="col1">
-                            <div class="pcol">Adres załadunku*</div>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="col4">
-                            <input type="date" id="zdate" class="tcol">
-                        </th>
-                        <th class="col4">
-                            <input type="time" id="zhour" class="tcol" placeholder="proszę wybrać">
-                        </th>
-                        <th class="col4">
-                            <input type="text" id="zcode" class="tcol" placeholder="kod pocztowy">
-                        </th>
-                        <th class="col1">
-                            <input type="text" id="zadres" class="tcol" placeholder="ulica, numer budynku, miasto, kraj">
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="tfor1">
-                <tbody>
-                    <tr>              
-                        <th class="col4">
-                            <div class="pcol">Data rozładunku*</div>
-                        </th>
-                        <th class="col4">
-                            <div class="pcol">Godzina rozładunku*</div>
-                        </th>
-                        <th class="col4">
-                            <div class="pcol">Kod pocztowy rozładunku*</div>
-                        </th>
-                        <th class="col1">
-                            <div class="pcol">Adres rozładunku*</div>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="col4">
-                            <input type="date" id="rdate" class="tcol">
-                        </th>
-                        <th class="col4">
-                            <input type="time" id="rhour" class="tcol" placeholder="proszę wybrać">
-                        </th>
-                        <th class="col4">
-                            <input type="text" id="rcode" class="tcol" placeholder="kod pocztowy">
-                        </th>
-                        <th class="col1">
-                            <input type="text" id="radres" class="tcol" placeholder="ulica, numer budynku, miasto, kraj">
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="tfor1">
-                <tbody>
-                    <tr>
-                        <th class="col5">
-                            <div class="pcol">Przystanek celny: IMPORT</div>
-                        </th>
-                        <th class="col5">
-                            <div class="pcol">Przystanek celny: EXPORT</div>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="col5">
-                            <input type="text" id="import" class="tcol">
-                        </th>
-                        <th class="col5">
-                            <input type="text" id="export" class="tcol">
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="tfor1">
-                <tbody>
-                    <tr>
-                        <th class="col5">
                             <div class="pcol">Dodatkowe informacje</div>
                         </th>
                     </tr>
                     <tr>
                         <th class="col1">
-                            <input type="text" id="info" class="tcol" placeholder="Wszystkie dodatkowe informacje, wymagania lub ograniczenia">
+                            <input type="text" id="info" class="tcol2" placeholder="Wszystkie dodatkowe informacje, wymagania lub ograniczenia">
                         </th>
                     </tr>
                 </tbody>
@@ -295,7 +156,7 @@
             <table class="tfor1">
                 <tbody>
                     <tr>
-                        <th class="col3">
+                        <th class="col1">
                             <input type="checkbox" id="accept" name="accept">
                             <label id="accept" class="check">Zaznacz to pole, aby zaakceptować Politykę prywatności</label>
                         </th>
