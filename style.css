@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -33,14 +33,15 @@ body {
 }
 
 .contact {
-    width: 13%;
+    width: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 20%;
     float: left;
 }
 
 .contact0 {
-    width: 12%;
+    width: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
     float: left;
@@ -65,7 +66,7 @@ body {
 .call {
     color: black;
     text-decoration: none;
-    border: #fc1f2e solid px;
+    padding: 1px;
 }
 
 .header2 {
@@ -597,11 +598,12 @@ input[type=checkbox] {
         width: 19%;
         margin-top: 5px;
         margin-bottom: 5px;
+        margin-left: 30%;
         float: left;
     }
     
     .contact0 {
-        width: 15%;
+        width: 19%;
         margin-top: 5px;
         margin-bottom: 5px;
         float: left;
@@ -626,7 +628,6 @@ input[type=checkbox] {
     
     .header2 {
         position: fixed;
-        height: 30px;
         top: 50px;
         width: 100%;
         font-family: 'Roboto Condensed', sans-serif;
@@ -653,7 +654,7 @@ input[type=checkbox] {
         border-bottom: 1px white solid;
         padding-top: 5px;
         padding-bottom: 6px;
-        font-size: 0.5hw;
+        font-size: 1.5vw;
     }
     
     .hbutton1:hover, .hbutton2:hover {
@@ -667,7 +668,7 @@ input[type=checkbox] {
         border-bottom: 1px white solid;
         padding-top: 5px;
         padding-bottom: 6px;
-        font-size: 0.5hw;
+        font-size: 1.5vw;
     }
     
     a {
@@ -726,55 +727,45 @@ input[type=checkbox] {
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
-        display: inline-table;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
     
     .mleft1 {
-        float: left;
+        height: fit-content;
         width: 90%;
         margin: 5%;
-        display: block;
-        height: 70vw;
     }
     
     .mright1 {
-        float: right;
+        height: fit-content;
         width: 90%;
         margin: 5%;
-        display: block;
-        height: 70vw;
     }
     
     .mleft2 {
-        float: left;
+        height: fit-content;
         width: 90%;
         margin: 5%;
-        display: block;
-        height: 75vw;
     }
     
     .mright2 {
-        float: right;
+        height: fit-content;
         width: 90%;
         margin: 5%;
-        display: block;
-        height: 130vw;
     }
     
     .mleft3 {
-        float: left;
+        height: fit-content;
         width: 90%;
         margin: 5%;
-        display: block;
-        height: 100vw;
     }
     
     .mright3 {
-        float: right;
+        height: fit-content;
         width: 90%;
         margin: 5%;
-        display: block;
-        height: 60vw;
     }
     
     .mainimg {
