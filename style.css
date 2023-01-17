@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -66,6 +66,7 @@ body {
 .call {
     color: black;
     text-decoration: none;
+    border: #fc1f2e solid 2px;
     padding: 1px;
 }
 
@@ -643,9 +644,7 @@ input[type=checkbox] {
     }
     
     .hbreak {
-        width: 0%;
-        padding-top: 5px;
-        padding-bottom: 6px;
+        display: none;
     }
     
     .hbutton1 {
