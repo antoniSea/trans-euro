@@ -33,7 +33,7 @@ body {
 }
 
 .contact {
-    width: 15%;
+    width: 20%;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 20%;
@@ -41,7 +41,7 @@ body {
 }
 
 .contact0 {
-    width: 15%;
+    width: 23%;
     margin-top: 25px;
     margin-bottom: 25px;
     float: left;
@@ -656,16 +656,17 @@ input[type=checkbox] {
     }
     
     .contact {
-        width: 19%;
-        margin-top: 5px;
+        width: 30%;
+        margin-top: 0;
         margin-bottom: 5px;
-        margin-left: 30%;
         float: left;
+        margin-left: 0;
+        margin-left: 10%;
     }
     
     .contact0 {
-        width: 19%;
-        margin-top: 5px;
+        width: 30%;
+        margin-top: 0;
         margin-bottom: 5px;
         float: left;
     }
@@ -675,16 +676,17 @@ input[type=checkbox] {
         float: left;
         margin-right: 5px;
         margin-bottom: 20px;
-        height: 1.8vw; 
+        height: 3.8vw; 
     }
 
     .ctext {
-        font-size: 1.3vw;
+        font-size: 3vw;
         margin-top: 10px;
+        font-weight: 500;
     }
 
     .ctextb {
-        font-size: 1.3vw;
+        font-size: 2.5vw;
     }
     
     .header2 {
