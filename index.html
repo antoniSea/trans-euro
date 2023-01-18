@@ -15,7 +15,6 @@
 	    			families: ['Lato:300i,400,700,700i']
 	    		}
 	    	});
-
     	</script>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -38,7 +37,8 @@
                 </div>
             </a>
         </section>
-        <section class="header2">
+        
+        <section class="header2 mobile-hidden">
             <table class="htable">
                 <tr>
                     <th class="hbreak"> </th>
@@ -50,6 +50,20 @@
                 </tr>
             </table>
         </section>
+
+        <section class="mobile-navbar header2">
+            <svg id="mobile-toggle-button"  class="mobile-menu" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <path d="M4 7h22v2H4zm0 5h22v2H4zm0 5h22v2H4z"/>
+            </svg>
+            
+            <div id="mobile-navbar-open" style="display: none">
+                <a href="#" class="nav-link">FIRMA TRANSPORTOWA - SPEDYCJA</a>
+                <a href="#offer" class="nav-link">OFERTA</a>
+                <a href="#mission" class="nav-link">MISJA</a>
+                <a href="#contact" class="nav-link">KONTAKT</a>
+            </div>
+        </section>
+
         <section class="baner">
             <img src="img/baner.png" style="width: 100%; height: auto;">
             <h1>Firma transportowa</h1>
@@ -1189,5 +1203,6 @@
                 Polityka prywatności / Wszelkie prawa zastrzeżone © 2017 - 2022 Logis com Sp. z o.o.
             </div>
         </section>
+        <script src="navbar.js"></script>
     </body>
 </html>

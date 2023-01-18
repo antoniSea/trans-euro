@@ -571,7 +571,55 @@ input[type=checkbox] {
     display: block;
 }
 
+.mobile-navbar {
+    display: none;
+}
+
 @media only screen and (max-width: 850px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: block !important;
+        text-align: right;
+    }
+
+    .mobile-navbar svg {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    @keyframes slide-in {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes slide-out {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+    .mobile-navbar-open-out {
+        animation: slide-out 0.5s ease-in-out !important;
+    }
+
+    #mobile-navbar-open {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        animation: slide-in 0.5s ease-in-out;
+    }
+
     .header {
         position: fixed;
         height: 50px;
