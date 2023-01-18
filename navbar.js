@@ -13,7 +13,6 @@ document.getElementById('mobile-toggle-button').addEventListener('click', (() =>
         changeDisplay(nav, "flex");
     }
 }));
-
 // get every a element in the navbar
 const navLinks = document.querySelectorAll('#mobile-navbar-open a');
 navLinks.forEach((link) => {
@@ -22,6 +21,7 @@ navLinks.forEach((link) => {
     
         if (nav.style.display === "flex") {
             nav.classList.add("mobile-navbar-open-out");
+            // scroll 200px up to hide the navbar
             setTimeout(() => {
                 changeDisplay(nav, "none");
                 nav.classList.remove("mobile-navbar-open-out");
@@ -31,6 +31,7 @@ navLinks.forEach((link) => {
         }
     })
 })
+
 
 const changeDisplay = (element, display) => {
     element.style.display = display;
